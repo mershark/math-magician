@@ -119,14 +119,14 @@ You can deploy this project by transferring the files in your local repository o
 
 ## 🚀 Video Walkthrough <a name="live-demo"></a>
 
-([coming soon]())
+Coming Soon
 
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo Website <a name="live-demo"></a>
 
-([coming soon]())
+Coming Soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,7 +148,7 @@ You can deploy this project by transferring the files in your local repository o
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/mershark/math-magician/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
