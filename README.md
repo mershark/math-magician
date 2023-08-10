@@ -115,20 +115,6 @@ You can deploy this project by transferring the files in your local repository o
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- VIDEO WALKTHROUGH -->
-
-## 🚀 Video Walkthrough <a name="live-demo"></a>
-
-Coming Soon
-
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo Website <a name="live-demo"></a>
-
-Coming Soon
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
