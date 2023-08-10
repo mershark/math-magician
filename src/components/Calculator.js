@@ -22,7 +22,7 @@ const Calculator = () => (
       <Button>2</Button>
       <Button>3</Button>
       <Button>+</Button>
-      <Button width="140%">0</Button>
+      <Button>0</Button>
       <Button>.</Button>
       <Button>=</Button>
     </div>
