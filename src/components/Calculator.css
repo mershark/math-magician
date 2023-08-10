@@ -3,6 +3,24 @@ body {
   justify-content: center;
 }
 
+.App {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-right: 10%;
+  margin-left: 10%;
+  align-items: center;
+  gap: 20px;
+}
+
+.calculator-app {
+  width: 40%;
+}
+
+.quote-app {
+  width: 60%;
+}
+
 .calculator {
   width: 300px;
   margin-top: 50px;

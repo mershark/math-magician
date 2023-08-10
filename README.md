@@ -31,7 +31,7 @@
 
 # 📖 Math Magician <a name="about-project"></a>
 
-> In this project I will develop a user-friendly single-page application for performing various math calculations, but for this task I added the logic needed to make the Calculator component actually work.
+> In this project I will develop a user-friendly single-page application for performing various math calculations, but for this task I added random quotes to the calculator app which was fetched from an external API: [API Ninjas](https://api-ninjas.com/api/quotes)
 
 ## Built With
 
