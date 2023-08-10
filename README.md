@@ -31,7 +31,7 @@
 
 # 📖 Math Magician <a name="about-project"></a>
 
-> In this project I will develop a user-friendly single-page application for performing various math calculations, but for this task I setup the React component for the app.
+> In this project I will develop a user-friendly single-page application for performing various math calculations, but for this task I added the logic needed to make the Calculator component actually work.
 
 ## Built With
 
@@ -115,20 +115,6 @@ You can deploy this project by transferring the files in your local repository o
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- VIDEO WALKTHROUGH -->
-
-## 🚀 Video Walkthrough <a name="live-demo"></a>
-
-Coming Soon
-
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo Website <a name="live-demo"></a>
-
-Coming Soon
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 

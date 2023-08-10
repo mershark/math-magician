@@ -1,32 +1,51 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Calculator.css';
 import Button from './Buttons';
+import calculate from '../logic/calculate';
 
-const Calculator = () => (
-  <div className="calculator">
-    <div className="calculator-display">0</div>
-    <div className="calculator-grid">
-      <Button>AC</Button>
-      <Button>+/-</Button>
-      <Button>%</Button>
-      <Button>÷</Button>
-      <Button>7</Button>
-      <Button>8</Button>
-      <Button>9</Button>
-      <Button>x</Button>
-      <Button>4</Button>
-      <Button>5</Button>
-      <Button>6</Button>
-      <Button>-</Button>
-      <Button>1</Button>
-      <Button>2</Button>
-      <Button>3</Button>
-      <Button>+</Button>
-      <Button>0</Button>
-      <Button>.</Button>
-      <Button>=</Button>
+const Calculator = () => {
+  const [displayValue, setDisplayValue] = useState('0');
+  const [calculatorState, setCalculatorState] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+
+  const handleButtonClick = (buttonName) => {
+    const newState = calculate(calculatorState, buttonName);
+    // Update displayValue immediately after setting the state
+    const newDisplayValue = newState.next || newState.total || '0';
+    setDisplayValue(newDisplayValue);
+    // Update calculator state after updating displayValue
+    setCalculatorState(newState);
+  };
+  return (
+    <div className="calculator">
+      <div className="calculator-display">{displayValue}</div>
+      <div className="calculator-grid">
+        {/* Attaching the event handler to each Button */}
+        <Button onClick={() => handleButtonClick('AC')}>AC</Button>
+        <Button onClick={() => handleButtonClick('+/-')}>+/-</Button>
+        <Button onClick={() => handleButtonClick('%')}>%</Button>
+        <Button onClick={() => handleButtonClick('÷')}>÷</Button>
+        <Button onClick={() => handleButtonClick('7')}>7</Button>
+        <Button onClick={() => handleButtonClick('8')}>8</Button>
+        <Button onClick={() => handleButtonClick('9')}>9</Button>
+        <Button onClick={() => handleButtonClick('x')}>x</Button>
+        <Button onClick={() => handleButtonClick('4')}>4</Button>
+        <Button onClick={() => handleButtonClick('5')}>5</Button>
+        <Button onClick={() => handleButtonClick('6')}>6</Button>
+        <Button onClick={() => handleButtonClick('-')}>-</Button>
+        <Button onClick={() => handleButtonClick('1')}>1</Button>
+        <Button onClick={() => handleButtonClick('2')}>2</Button>
+        <Button onClick={() => handleButtonClick('3')}>3</Button>
+        <Button onClick={() => handleButtonClick('+')}>+</Button>
+        <Button onClick={() => handleButtonClick('0')}>0</Button>
+        <Button onClick={() => handleButtonClick('.')}>.</Button>
+        <Button onClick={() => handleButtonClick('=')}>=</Button>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Calculator;
