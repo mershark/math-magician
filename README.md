@@ -31,7 +31,7 @@
 
 # 📖 Math Magician <a name="about-project"></a>
 
-> In this project I will develop a user-friendly single-page application for performing various math calculations, but for this task I setup all the tool needed to start building my project
+> In this project I will develop a user-friendly single-page application for performing various math calculations, but for this task I setup the React component for the app.
 
 ## Built With
 
