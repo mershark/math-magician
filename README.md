@@ -1,3 +1,6 @@
+
+![calculator](https://github.com/mershark/math-magician/assets/113654948/aaf7eaa8-7506-4d02-bd69-0121ef8a2481)
+
 <a name="readme-top"></a>
 
 <div align="center">
@@ -31,7 +34,7 @@
 
 # 📖 Math Magician <a name="about-project"></a>
 
-> In this project I will develop a user-friendly single-page application for performing various math calculations, but for this task I added random quotes to the calculator app which was fetched from an external API: [API Ninjas](https://api-ninjas.com/api/quotes)
+> In this project, I created a feature-rich calculator application with an elegant and user-friendly design. The calculator performs basic arithmetic operations and displays the result prominently. I implemented a custom logic for handling calculations and integrated it with a React user interface. Additionally, I incorporated an inspiring quote display that fetches random quotes from an external API: [API Ninjas](https://api-ninjas.com/api/quotes). The layout is responsive, adapting gracefully to different screen sizes. The final result is a polished and functional calculator app with a motivational touch.
 
 ## Built With
 
@@ -114,7 +117,13 @@ You can deploy this project by transferring the files in your local repository o
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo Website <a name="live-demo"></a>
+
+([Click here](https://mershark.github.io/Microverse-capstone-2/dist/))
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -125,8 +134,9 @@ You can deploy this project by transferring the files in your local repository o
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] **Calculator Papge**
+- [ ] **Scientific Calculations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
