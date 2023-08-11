@@ -31,7 +31,7 @@ const QuoteDisplay = () => {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div className="quote-loading">Loading...</div>;
   }
 
   if (error) {
