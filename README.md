@@ -121,7 +121,7 @@ You can deploy this project by transferring the files in your local repository o
 
 ## 🚀 Live Demo Website <a name="live-demo"></a>
 
-([Click here](https://mershark.github.io/Microverse-capstone-2/dist/))
+([Click here](https://mershark.github.io/math-magician/))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
