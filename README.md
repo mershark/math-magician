@@ -1,6 +1,4 @@
 
-![calculator](https://github.com/mershark/math-magician/assets/113654948/aaf7eaa8-7506-4d02-bd69-0121ef8a2481)
-
 <a name="readme-top"></a>
 
 <div align="center">
@@ -34,7 +32,7 @@
 
 # 📖 Math Magician <a name="about-project"></a>
 
-> In this project, I created a feature-rich calculator application with an elegant and user-friendly design. The calculator performs basic arithmetic operations and displays the result prominently. I implemented a custom logic for handling calculations and integrated it with a React user interface. Additionally, I incorporated an inspiring quote display that fetches random quotes from an external API: [API Ninjas](https://api-ninjas.com/api/quotes). The layout is responsive, adapting gracefully to different screen sizes. The final result is a polished and functional calculator app with a motivational touch.
+> In this project, I created a feature-rich calculator application with an elegant and user-friendly design. The calculator performs basic arithmetic operations and displays the result prominently. I created three pages using react route, I implemented a custom logic for handling calculations and integrated it with a React user interface. Additionally, I incorporated an inspiring quote display that fetches random quotes from an external API: [API Ninjas](https://api-ninjas.com/api/quotes). The layout is responsive, adapting gracefully to different screen sizes. The final result is a polished and functional calculator app with a motivational touch.
 
 ## Built With
 
