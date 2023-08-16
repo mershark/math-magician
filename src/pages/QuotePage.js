@@ -1,11 +1,9 @@
 import React from 'react';
 import QuoteDisplay from '../components/QuoteDisplay';
+import '../styles/quote.css';
 
 const QuotePage = () => (
-  <div>
-    {/* Header */}
-    {/* Navigation Links */}
-    <h1>Quote of the Day</h1>
+  <div className="quote-container">
     <QuoteDisplay />
   </div>
 );

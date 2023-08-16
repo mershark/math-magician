@@ -1,5 +1,9 @@
-/* styles/calculator.css */
 .calculator-div {
   display: flex;
-  flex-direction: column;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.calculator-h2 {
+  padding: 0;
 }
