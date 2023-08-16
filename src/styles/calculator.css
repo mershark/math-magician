@@ -1,0 +1,5 @@
+/* styles/calculator.css */
+.calculator-div {
+  display: flex;
+  flex-direction: column;
+}
