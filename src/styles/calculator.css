@@ -1,0 +1,9 @@
+.calculator-div {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.calculator-h2 {
+  padding: 0;
+}
